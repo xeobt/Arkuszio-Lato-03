@@ -1,0 +1,54 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightcyan;
+}
+header{
+    background-color: steelblue;
+    color: white;
+    padding: 10px;
+}
+main{
+    display: flex;
+    margin-top: 20px;
+    gap: 30px;
+    margin-left: 50px;
+}
+.artykuly{
+    width: 30%;
+    padding-top: 40px;
+}
+#a1{
+    background-color: dodgerblue;
+}
+#a2{
+    background-color: limegreen;
+}
+#a3{
+    background-color: darkorchid;
+}
+img{
+    width: 70%;
+}
+p{
+    padding: 20px;
+}
+table{
+    width: 70%;
+    border: steelblue solid 1px;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr:hover{
+    border: white solid 1px;
+    background-color: steelblue;
+    color: white;
+}
+footer{
+    background-color: steelblue;
+    color: white;
+    font-size: 120%;
+}
+th{
+    font-weight: normal;
+}
