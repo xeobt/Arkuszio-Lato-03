@@ -51,5 +51,30 @@ footer{
 }
 th{
     font-weight: normal;
+}
+@media (min-width: 800px) {
+    main{
+        display: flex;
+        padding-top: 40px;
+        gap: 30px;
+        margin-left: 50px;
+    }
+    .artykuly{
+        width: 30%;
+        padding-top: 40px;
+    }
+}
 
+@media (max-width: 799px) {
+    main{
+        display: flex;
+        flex-direction: column;
+        padding-top: 40px;
+        gap: 30px;
+        margin-left: 50px;
+    }
+    .artykuly{
+        width: 30%;
+        padding-top: 40px;
+    }
 }
